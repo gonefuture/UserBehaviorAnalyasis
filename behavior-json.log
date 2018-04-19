@@ -1,0 +1,14 @@
+{"userId":2000,"day":"2017-03-01","begintime":1488326400000,"endtime":1488327000000,"data":[{"package":"com.browser1","activetime":60000},{"package":"com.browser","activetime":12870000}]}
+{"userId":20020,"day":"2017-03-03","begintime":1488326400000,"endtime":1488327000000,"data":[{"package":"com.browser1","activetime":60000},{"package":"com.browser","activetime":120000}]}
+{"userId":2000,"day":"2017-03-01","begintime":1488326400000,"endtime":1488327000000,"data":[{"package":"com.browser1","activetime":60000},{"package":"com.browser","activetime":120000}]}
+{"userId":20400,"day":"2017-03-01","begintime":1488326400000,"endtime":1488327000000,"data":[{"package":"com.browser1","activetime":60000},{"package":"com.browser","activetime":1207000}]}
+{"userId":2000,"day":"2017-03-05","begintime":1488326400000,"endtime":1488327000000,"data":[{"package":"com.browser","activetime":120000}]}
+{"userId":21000,"day":"2017-03-01","begintime":1488326400000,"endtime":1488327000000,"data":[{"package":"com.browser1","activetime":60000},{"package":"com.browser5","activetime":1204000}]}
+{"userId":20040,"day":"2017-03-01","begintime":1488326400000,"endtime":1488327000000,"data":[{"package":"com.browser1","activetime":60000},{"package":"com.browser","activetime":12075000}]}
+{"userId":20050,"day":"2017-03-01","begintime":1488326400000,"endtime":1488327000000,"data":[{"package":"com.browser1","activetime":60000},{"package":"com.browser","activetime":120000}]}
+{"userId":20040,"day":"2017-03-01","begintime":1488326400000,"endtime":1488327000000,"data":[{"package":"com.browser1","activetime":60000},{"package":"com.browser","activetime":1204000}]}
+{"userId":20400,"day":"2017-03-01","begintime":1488326400000,"endtime":1488327000000,"data":[{"package":"com.browser1","activetime":60000},{"package":"com.browser","activetime":120000}]}
+{"userId":25000,"day":"2017-03-04","begintime":1488326400000,"endtime":1488327000000,"data":[{"package":"com.browser1","activetime":60000},{"package":"com.browser","activetime":1201000}]}
+{"userId":20400,"day":"2017-03-01","begintime":1488326400000,"endtime":1488327000000,"data":[{"package":"com.browser5","activetime":1200400}]}
+{"userId":20400,"day":"2017-03-01","begintime":1488326400000,"endtime":1488327000000,"data":[{"package":"com.browser1","activetime":60000},{"package":"com.browser","activetime":1200400}]}
+{"userId":24000,"day":"2017-03-03","begintime":1488326400000,"endtime":1488327000000,"data":[{"package":"com.browser1","activetime":60000},{"package":"com.browser6","activetime":1205000},{"package":"com.browser7","activetime":1205000}]}
