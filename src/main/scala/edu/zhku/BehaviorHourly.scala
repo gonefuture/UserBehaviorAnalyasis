@@ -38,7 +38,7 @@ object BehaviorHourly {
 
     var table: Table = _
 
-    // 定义类
+    // 定义case类来析构json数据
     case class apptimes(activetime:String, `package`:String)
     case class UserHourly(userId:String, endtime:Long, data: List[(String,Long)])
     case class log(userId:String, day:String, begintime:String,  endtime:Long, data: List[apptimes])
@@ -47,7 +47,7 @@ object BehaviorHourly {
     def main(args: Array[String]): Unit = {
     //def BehaviorHourly() {
         val conf = new SparkConf().setMaster("local[2]").setAppName("behavior")
-
+        // 设置每三秒更新一下
         val ssc = new StreamingContext(conf, Seconds(3))
 
         val kafkaParams = Map[String, Object](
@@ -74,8 +74,8 @@ object BehaviorHourly {
                     val json = parse(value)
                     // 样式类从JSON对象中提取值
                    json.extract[log]
-                }).window( Seconds(3600), Seconds(60))
-                .foreachRDD(
+                }).window( Seconds(3600), Seconds(60))  // 设置窗口时间，这个为每分钟分析一次一小时内的内容
+                .foreachRDD(    // 这里请去了解RDD的概念
                     rdd => {
                         rdd.foreachPartition(partitionOfRecords => {    // 循环分区
                             // 获取Hbase连接，分区创建一个连接，分区不跨节点，不需要序列化
